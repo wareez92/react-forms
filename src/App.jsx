@@ -3,7 +3,8 @@ import './App.css'
 import SignUpForm from './components/SignUpForm'
 import Authenticate from './components/Authenticate'
 
-function App() {
+
+export default function App() {
     const [token, setToken] = useState(null);
     
 
@@ -13,6 +14,6 @@ function App() {
       <Authenticate token={token} setToken={setToken} />
     </>
   )
-}
+} 
 
-
+ 
